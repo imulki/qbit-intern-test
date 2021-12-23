@@ -47,6 +47,7 @@ const comments = [
 // Function to count the comment from array, including comment in comment
 // Input: Array of IComment
 // Output: Sum of comment in the array
+
 // Note: This is a recursive function
 
 function countComment(commArr) {

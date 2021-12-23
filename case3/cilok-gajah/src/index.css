@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFF172;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title {
+  
+  font-size: 43px;
+  text-decoration: none;
+  color: #FFF8B7;
+  background-color: #720000;
+}
+
+.title:-webkit-any-link {
+  color: #FFF8B7;
+}
+
+#topbar {
+  background-color: #FFBE17;
+  height: 80px;
+  border: 6px solid #720000;
+  border-right: 0px;
+  box-sizing: border-box;
+}
+
+.plaster {
+  font-family: 'Plaster', cursive;
+}
+
+.salsa {
+  font-family: 'Salsa', cursive;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.topbar-button {
+  color: black;
+  font-size: 35px;
+}
+
+#jumbotron {
+  height: 513px;
+}
+
+.jumbotron-img {
+  border: 8px solid #720000;
+  box-sizing: border-box;
+  width:100%;
+  height:100%
+}
+
+.jumbotron-shade {
+  width: 696px;
+  height: 513px;
+  left: 0px;
+  top: 80px;
+  background: linear-gradient(90deg, #FFF172 53.12%, rgba(255, 242, 121, 0.78) 81.25%, rgba(255, 242, 128, 0) 100%);
+}
+
+.jumbotron-title {
+  width: 440px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 64px;
+
+  color: #720000;
+}
+
+.jumbotron-subtitle {
+  width: 440px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #720000;
+}
+
+#fact {
+  background: linear-gradient(0deg, rgba(255, 248, 183, 0) 0%, #FFF8B7 5.21%, #FFF8B7 96.35%, rgba(255, 248, 183, 0) 100%);
+}
+
+.fact-title {
+  width: 1000px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  color: #720000;
+  border-bottom: 6px solid #720000;
+}
+
+.fact-img {
+  width: 533px;
+  height: 358px;
+  border: 3px solid #720000;
+  box-sizing: border-box;
+  box-shadow: 0px 25px 19px -8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.fact-fact {
+  width: 90%;
+}
+
+.fact-text {
+  width: 533px;
+  height: auto;
+  background-color: #720000;
+}
+
+.fact-subtitle {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 30px;
+
+  color: #FFF8B7;
+}
+
+.fact-desc {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+
+  color: #FFF8B7;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 32px;
+  background-color: #720000;
+}
+
+.dull-corner-left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.dull-corner-right {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.mainmenu-title {
+  width: 1000px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  color: #720000;
+  border-bottom: 6px solid #720000;
+}
+
+.mainmenu-title-baksogajah {
+  font-size: 60px;
+  color: #FFF8B7;
+  background-color: #720000;
+}
+
+.mainmenu-menu {
+  width: 100%;
+  height: auto;
+}
+
+.mainmenu-img {
+  border: 3px solid #720000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.mainmenu-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  text-align: center;
+  color: #720000;
+}
+
+.mainmenu-btn {
+  background-color: #720000;
+  width: 250px;
+  height: 50px;
+  box-shadow: 0px 6px 0px #1F0000;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+#bottombar {
+  background-color: #FFBE17;
+  border-top: 6px solid #720000;
+  box-sizing: border-box;
+}
+
+.contact-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+
+  color: #000000;
+}
+
+.contact-list {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+
+  color: #000000;
+}
+
+.bottombar-baksogajah {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+
+  color:#FFF8B7;
+  background-color: #720000;
+}
